@@ -51,10 +51,10 @@
         //    // actually used.
         //    .lazy = false,
         //},
-        .tracer = .{
-            .url = "https://github.com/nektro/zig-tracer/archive/4c2ab3f9899568ea119ed44ffbc255f91ff1cda1.tar.gz",
-            .hash = "122042bd2e0e7a0321a4a095a0291d7593cd0c5478cdd3f946f88b8dbc7a33597926",
-        },
+        // .tracer = .{
+        //     .url = "https://github.com/nektro/zig-tracer/archive/4c2ab3f9899568ea119ed44ffbc255f91ff1cda1.tar.gz",
+        //     .hash = "122042bd2e0e7a0321a4a095a0291d7593cd0c5478cdd3f946f88b8dbc7a33597926",
+        //},
     },
 
     // Specifies the set of files and directories that are included in this package.
