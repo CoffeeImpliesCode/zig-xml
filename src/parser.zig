@@ -1,7 +1,7 @@
 const std = @import("std");
 const string = []const u8;
 const Parser = @This();
-const xml = @import("./mod.zig");
+const xml = @import("./root.zig");
 
 any: std.io.AnyReader,
 allocator: std.mem.Allocator,

@@ -1,6 +1,6 @@
 const std = @import("std");
 const string = []const u8;
-const xml = @import("xml");
+const xml = @import("root.zig");
 const expect = std.testing.expect;
 
 // zig fmt: off
