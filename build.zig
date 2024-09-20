@@ -4,13 +4,11 @@ pub fn build(b: *std.Build) void {
     const target = b.standardTargetOptions(.{});
     const optimize = b.standardOptimizeOption(.{});
 
-    const lib = b.addStaticLibrary(.{
-        .name = "zig-xml",
+    _ = b.addModule("root", .{
         .root_source_file = b.path("src/root.zig"),
-        .target = target,
         .optimize = optimize,
+        .target = target,
     });
-    b.installArtifact(lib);
 
     const bench = b.addExecutable(.{
         .name = "bench",
